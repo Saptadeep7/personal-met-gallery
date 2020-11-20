@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .loading {
+    left: 45%;
+  }
+  .section-gallery--card {
+    flex-basis: 32%;
+  }
+}
+@media (max-width: 640px) {
+  .heading-primary {
+    margin-bottom: 3rem;
+  }
+  .heading-primary--main {
+    font-size: 3rem;
+    letter-spacing: 2.5rem;
+  }
+  .heading-primary--sub {
+    font-size: 1.5rem;
+  }
+  .section-gallery--card {
+    flex-basis: 49%;
+  }
+}
+@media (max-width: 375px) {
+  .heading-primary {
+    margin-bottom: 2rem;
+  }
+  .heading-primary--main {
+    font-size: 2.5rem;
+  }
+  .heading-primary--sub {
+    font-size: 1.3rem;
+  }
+  .section-gallery {
+    flex-direction: column;
+    .section-gallery--card {
+      width: 100%;
+    }
+  }
+}

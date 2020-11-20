@@ -1,0 +1,17 @@
+.loading {
+  height: 0;
+  width: 0;
+  padding: 1.5rem;  
+  border: .6rem solid $color-primary;
+  border-right-color: $color-secondary;
+  border-radius: 2.2rem;
+  animation: rotate 1s infinite linear;
+  position: absolute;
+  left: 48%;
+  top: 50%;
+  -webkit-border-radius: 2.2rem;
+  -moz-border-radius: 2.2rem;
+  -ms-border-radius: 2.2rem;
+  -o-border-radius: 2.2rem;
+}
+

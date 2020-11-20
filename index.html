@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Personal Met Gallery</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Personal</span>
+          <span class="heading-primary--sub">Met Gallery</span>
+        </h1>
+      </div>
+    </header>
+    <nav class="navigation">
+      <a
+        class="btn btn--outline active"
+        id="btn-main"
+        href="javascript:void(0)"
+        onclick="toggleMenu('main')"
+        >Main Gallery</a
+      >
+      <a
+        class="btn btn--outline"
+        id="btn-personal"
+        href="javascript:void(0)"
+        onclick="toggleMenu('personal')"
+        >Personal Gallery</a
+      >
+    </nav>
+    <main>
+      <form
+        name="form-gallery"
+        id="form-gallery"
+        method="POST"
+        onsubmit="savePersonalGallery(event)"
+      >
+        <section class="section-gallery u-margin-bottom-big" id="data">
+          <div class="loading"></div>
+        </section>        
+      </form>
+      <section
+        class="section-gallery u-margin-bottom-big hide"
+        id="personalData"
+      >
+        <div class="loading"></div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

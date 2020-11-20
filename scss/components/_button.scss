@@ -1,0 +1,85 @@
+.btn {
+  &:link,
+  &:visited {
+    position: relative;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    border: 2px solid $color-secondary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+    &::after {
+      opacity: 0;
+    }
+  }
+
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+
+  &--outline {
+    border: 2px solid $color-primary;
+    color: $color-secondary;
+    margin-right: 2rem;
+    &.active {
+      background-color: $color-primary;
+      border: 2px solid $color-secondary;
+      color: $color-white;
+    }
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  &--solid {
+    padding: 1rem;
+    background-color: $color-primary;
+    border: 2px solid darken($color-primary, 7.5);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
+}
+
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+  }
+
+  &--submit {
+    text-align: right;
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "metropolitan-museum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "HTML5",
+    "SCSS",
+    "Vanilla-JavaScript"
+  ],
+  "author": "Saptadeep Bhowmik",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.section-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  &.hide {
+    display: none;
+  }
+  .card-image-section {
+    overflow: hidden;
+  }
+}
+
+.section-gallery--card {
+  flex-basis: 19%;
+  margin-bottom: 2rem;
+  border: 1px solid $color-grey;
+  overflow: hidden;
+}
+.section-gallery--card.editor {
+  flex-basis: 18%;
+}
+.section-gallery--card > img {
+  max-width: 100%;
+}
+
+.section-gallery--card-image {
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+  transition: 0.5s all ease-in-out;
+  overflow: hidden;
+  &:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+}
+.card-text-section {
+  padding: 0.7rem;
+  h2,
+  h3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 5rem;
+  }
+  .card-checkbox {
+    float: left;
+  }
+  .read-more {
+    &:link,
+    &:visited {
+      font-size: 1.4rem;
+      text-decoration: none;
+      font-weight: 600;
+      float: right;
+      line-height: 12px;
+      margin-bottom: 1rem;
+      color: $color-secondary;
+    }
+  }
+}
