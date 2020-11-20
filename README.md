@@ -1,6 +1,6 @@
 # Personal Met Gallery
 
-### Pull the code run 'npm i'
+### git pull and run the index.html file
 
 ### Desktop View
 ![Desktop-View](https://user-images.githubusercontent.com/12189997/99829728-a93ca980-2b82-11eb-8f65-684a0aafe6dc.png)
@@ -14,3 +14,4 @@
 ![MobileView](https://user-images.githubusercontent.com/12189997/99829769-b8bbf280-2b82-11eb-923d-daf444d87635.png)
 
 ### WebSite Link
+http://13.234.35.224/
