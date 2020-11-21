@@ -228,7 +228,13 @@ body {
   flex-basis: 19%;
   margin-bottom: 2rem;
   border: 1px solid #777;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(119, 119, 119, 0.25); }
 
 .section-gallery--card.editor {
   flex-basis: 18%; }
@@ -255,7 +261,8 @@ body {
   .card-text-section h3 {
     text-overflow: ellipsis;
     overflow: hidden;
-    height: 5rem; }
+    white-space: nowrap;
+    height: 3rem; }
   .card-text-section .card-checkbox {
     float: left; }
   .card-text-section .read-more:link, .card-text-section .read-more:visited {
