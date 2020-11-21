@@ -1,17 +1,13 @@
 # Personal Met Gallery
 
-### git pull and run the index.html file
-
 ### Desktop View
-![Desktop-View](https://user-images.githubusercontent.com/12189997/99829728-a93ca980-2b82-11eb-8f65-684a0aafe6dc.png)
-
+![Desktop-View](https://user-images.githubusercontent.com/12189997/99884947-95af4280-2c57-11eb-86e1-7a249b402cc0.png)
 
 ### IPad View
-![IPadView](https://user-images.githubusercontent.com/12189997/99829754-b194e480-2b82-11eb-8a2e-62a312158ca7.png)
-
+![IPadView](https://user-images.githubusercontent.com/12189997/99884950-9c3dba00-2c57-11eb-8906-e978f94c9198.png)
 
 ### Mobile View
-![MobileView](https://user-images.githubusercontent.com/12189997/99829769-b8bbf280-2b82-11eb-923d-daf444d87635.png)
+![MobileView](https://user-images.githubusercontent.com/12189997/99884955-a19b0480-2c57-11eb-8a97-20ad83cb06ea.png)
 
 ### WebSite Link
 http://13.234.35.224/
