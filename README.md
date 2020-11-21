@@ -1,5 +1,7 @@
 # Personal Met Gallery
 
+### Pull the code then run the index.html file
+
 ### Desktop View
 ![Desktop-View](https://user-images.githubusercontent.com/12189997/99884947-95af4280-2c57-11eb-86e1-7a249b402cc0.png)
 
