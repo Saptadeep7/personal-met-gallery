@@ -16,18 +16,10 @@
       </div>
     </header>
     <nav class="navigation">
-      <a
-        class="btn btn--outline active"
-        id="btn-main"
-        href="javascript:void(0)"
-        onclick="toggleMenu('main')"
+      <a class="btn btn--outline active" id="btn-main" href="javascript:void(0)"
         >Main Gallery</a
       >
-      <a
-        class="btn btn--outline"
-        id="btn-personal"
-        href="javascript:void(0)"
-        onclick="toggleMenu('personal')"
+      <a class="btn btn--outline" id="btn-personal" href="javascript:void(0)"
         >Personal Gallery</a
       >
     </nav>
@@ -36,15 +28,17 @@
         name="form-gallery"
         id="form-gallery"
         method="POST"
-        onsubmit="savePersonalGallery(event)"
       >
-        <section class="section-gallery u-margin-bottom-big" id="data">
+        <section
+          class="section-gallery u-margin-bottom-big"
+          id="main-gallery-list"
+        >
           <div class="loading"></div>
-        </section>        
+        </section>
       </form>
       <section
         class="section-gallery u-margin-bottom-big hide"
-        id="personalData"
+        id="personal-gallery-list"
       >
         <div class="loading"></div>
       </section>
