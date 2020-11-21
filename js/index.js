@@ -7,9 +7,9 @@ const personalGalleryButton = document.querySelector('#btn-personal');
 class Gallery {
 
   // Display Main Gallery List
-  static async displayMainGalleryList() {
+  static displayMainGalleryList() {
     const queryUrl = `${url}search?q=sunflowers`;
-    const galleryList = await fetch(queryUrl)
+    const galleryList = fetch(queryUrl)
       .then((res) => {
         if (res.ok) {
           return res.json();
@@ -35,8 +35,8 @@ class Gallery {
   }
 
   // Fetch Each Image Details Data
-  static async fetchEachImageDetails(objectId, resultData) {
-    return await fetch(`${url}objects/${objectId}`)
+  static fetchEachImageDetails(objectId, resultData) {
+    return fetch(`${url}objects/${objectId}`)
       .then((res) => {
         if (res.ok) return res.json();
       })
@@ -47,7 +47,7 @@ class Gallery {
   }
 
   // Display Personal Gallery
-  static async displayPersonalGallery() {
+  static displayPersonalGallery() {
     let personalResultData = [];
     let personalGalleryDetails = [];
     let personalObjectId = Gallery.getSessionStorage();
